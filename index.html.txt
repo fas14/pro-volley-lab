@@ -1,70 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pro Volley Lab - Tudo sobre voleibol para treinadores. Fundamentos, táticas, e mais.">
     <title>Pro Volley Lab</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Certifique-se de que o arquivo CSS está correto -->
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
-        <div class="container">
-            <img src="logo.png" alt="Pro Volley Lab Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#historia">História</a></li>
-                    <li><a href="#fundamentos">Fundamentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="200" height="200">
+                <circle cx="300" cy="300" r="280" fill="#B30000" />
+                <text x="50%" y="50%" font-size="120" fill="white" font-family="Arial" text-anchor="middle" alignment-baseline="middle">
+                    Pro Volley Lab
+                </text>
+            </svg>
         </div>
+        <h1>Bem-vindo ao Pro Volley Lab!</h1>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1>Bem-vindo ao Pro Volley Lab</h1>
-            <p>Seu portal completo para treinamento de voleibol: táticas, fundamentos e muito mais!</p>
-        </div>
+    <section>
+        <h2>História do Voleibol</h2>
+        <p>Aqui está o conteúdo sobre a história do voleibol...</p>
     </section>
 
-    <!-- História Section -->
-    <section id="historia">
-        <div class="container">
-            <h2>História e Evolução do Voleibol</h2>
-            <p><strong>A Criação</strong></p>
-            <p>O voleibol, criado nos Estados Unidos em 1895 por William G. Morgan, professor de educação física...</p>
-            <p><strong>A Evolução</strong></p>
-            <p>Com a grande aceitação mundial, o voleibol passou por rápidas modificações...</p>
-        </div>
-    </section>
-
-    <!-- Fundamentos Section -->
-    <section id="fundamentos">
-        <div class="container">
-            <h2>Fundamentos Técnicos e Táticos</h2>
-            <h3>Tática</h3>
-            <p>A tática no voleibol pode ser classificada em três tipos: tática individual, tática grupal e tática coletiva...</p>
-            <h3>Estratégia</h3>
-            <p>A estratégia é baseada na análise da própria equipe em relação à equipe adversária...</p>
-            <h3>Sistemas de Jogo</h3>
-            <p>O sistema de jogo norteia a estratégia da equipe e as ações dos atletas...</p>
-            <h3>Técnica</h3>
-            <p>A técnica no voleibol é uma ação econômica a fim de atingir um objetivo...</p>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer id="contato">
-        <div class="container">
-            <p>Sigam-nos no Instagram: <a href="https://instagram.com/fabriciosodref" target="_blank">@fabriciosodref</a></p>
-        </div>
+    <footer>
+        <p>&copy; 2024 Pro Volley Lab. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
-
